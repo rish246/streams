@@ -1,0 +1,14 @@
+{
+  "streams": [
+    {
+      "title": "edited again",
+      "description": "this time it is going to redirect to the main page",
+      "id": 1
+    },
+    {
+      "title": "edited second stream",
+      "description": "i edited this stream as well",
+      "id": 2
+    }
+  ]
+}

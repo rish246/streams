@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+body {
+	--title: #114457;
+	--background: linear-gradient(to right, #0bbaae, #a6ede8);
+}
+
+#main-navbar {
+	background-color: var(--title);
+}
+
+#main-navbar .navbar-brand,
+#main-navbar .nav-link {
+	color: #a6ede8;
+}
+#stream-card {
+	height: 200px;
+	margin: 6px 2rem 6px 2rem;
+	margin-right: 50px;
+	border-radius: 5px;
+
+	display: block;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	background: var(--background);
+	color: var(--title);
+}
+
+#stream-card .title {
+	font-size: 30px;
+	padding-top: 40px;
+}
+
+#stream-card:hover {
+	box-shadow: 4px 4px 4px #888888;
+	cursor: pointer;
+}
+
+#render-buttons {
+	display: flex;
+	justify-content: center;
+}
+
+#stream-create-button {
+	display: flex;
+	justify-content: center;
+}
+
+#stream-create-button .btn {
+	margin-top: 6px;
+	padding: 2px 20px 2px 20px;
+	height: 50px;
+}
